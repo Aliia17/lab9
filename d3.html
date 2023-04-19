@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <title>Test</title>
+    <script src="https://d3js.org/d3.v6.min.js"> </script>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript"> 
+
+    // function pieChart () {
+    //     var svg = d3.select("svg"),
+    //     width = svg.attr("width"),
+    //     height = svg.attr("height"),
+    //     radius = Math.min(width, height) / 2.5;
+
+    //     var g = svg.append ("g")
+    //     .attr("transform", "translate(" + width /2 + "," + height /2 +")");
+
+    //     var color = d3.scaleOrdinal (['red', 'pink', 'yellow', 'purple', 'blue', ' brown', ' grey']);
+    //     var pie = d3.pie().value(function(d) 
+    //     {console.log (parseInt(d.Age/10))
+    //     return parseInt(d.Age/10);
+    // });
+
+    // var path = d3.arc().outerRadius(radius - 10).innerRadius(20);
+    // var label = d3.arc().outerRadius(radius).innerRadius(radius-80);
+
+    // d3.csv("titanic.csv").then(
+    //     function (data) {
+    //         console.log (parseInt(data [0].Age /10))
+    //         var gdata = d3.group(data, d => parseInt (d.Age / 10))
+    //         dataAll = []
+    //         for (let [key, value] of gdata) {
+    //             dataAll.push({name:key * 10 + "-" + (key +1) *10, Age: value.length})
+    //         }
+    //         console.log(dataAll)
+    //         arc = g.selectAll('.arc')
+    //         .data (pie (dataAll))
+    //         .enter ().append('g')
+    //         .attr ('class', 'arc');
+    //     arc.append('path')
+    //         .attr('d', path)
+    //         .attr('fill', function(d) {console.log ("log:" +d.data.name);return color (d.data.name);})
+    //     arc.append('text').attr('transform', function(d) {
+    //         return "translate(" + label.centroid(d) + ")";
+    //     })
+    //     .text(function (d) { return d.data.name;})
+    //     }
+    // )
+
+
+
+    // }
+
+</script>
+</head>
+<body onload="drawGraph()"></body>
+<!-- <body onload="pieChart()">
+     -->
+    <!-- <svg width = "500" height = "500"> </svg> -->
+
+<div id = "leftPane">
+
+</div>
+
+<div id = "rightPane">
+
+</div>
+
+
+</html>
